@@ -42,8 +42,11 @@ class PercentBar {
 				let don_3 = this.#dom_element.querySelector(".don_3");
 
 				don_1.style.width = 100 * counter.don_1 / counter.total + '%';
+				don_1.innerHTML = Math.round(100 * counter.don_1 / counter.total) + "%";
 				don_2.style.width = 100 * counter.don_2 / counter.total + '%';
+				don_2.innerHTML = Math.round(100 * counter.don_2 / counter.total) + "%";
 				don_3.style.width = 100 * counter.don_3 / counter.total + '%';
+				don_3.innerHTML = Math.round(100 * counter.don_3 / counter.total) + "%";
 			}
 		)
 	}
