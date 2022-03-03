@@ -40,7 +40,8 @@ class PercentBar {
 				let don_1 = this.#dom_element.querySelector(".don_1");
 				let don_2 = this.#dom_element.querySelector(".don_2");
 				let don_3 = this.#dom_element.querySelector(".don_3");
-
+				
+				/* TODO for .. in solution */
 				don_1.style.width = 100 * counter.don_1 / counter.total + '%';
 				don_1.innerHTML = Math.round(100 * counter.don_1 / counter.total) + "%";
 				don_2.style.width = 100 * counter.don_2 / counter.total + '%';
