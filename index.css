@@ -6,6 +6,11 @@ html {
 	font-size: 62.5%;
 }
 
+body {
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+}
+
 .box {
 	background-color: yellow;
 	height: 300px;
@@ -16,4 +21,28 @@ html {
 
 .box:hover {
 	cursor: pointer;
+}
+
+.percent-bar {
+	background-color: grey;
+	height: 5.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.percent-bar div {
+	height: 100%;
+	width: calc(100% / 3);
+	transition: width 1s;
+}
+
+.don_1 {
+	background-color: yellow;
+}
+
+.don_2 {
+	background-color: red;
+}
+
+.don_3 {
+	background-color: blue;
 }
