@@ -1,0 +1,19 @@
+@import url(utils.css);
+
+html {
+	display: flex;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+.box {
+	background-color: yellow;
+	height: 300px;
+	width: 300px;
+	color: white;
+	font-size: 5rem;
+}
+
+.box:hover {
+	cursor: pointer;
+}
