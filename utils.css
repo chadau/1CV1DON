@@ -6,10 +6,6 @@
 	flex: auto;
 }
 
-.flex-space-around {
-	justify-content: space-around;
-}
-
 .column {
 	display: flex;
 	flex-direction: column;

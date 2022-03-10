@@ -9,6 +9,9 @@ html {
 body {
 	margin-left: 2.5rem;
 	margin-right: 2.5rem;
+	background: url('assets/background.png') no-repeat center center fixed;
+	background-size: cover;
+	font: 1.4rem/2rem "roboto", Arial, sans-serif;
 }
 
 .box {
@@ -47,4 +50,57 @@ body {
 
 .don_3 {
 	background-color: blue;
+}
+
+.card {
+	background: white;
+	border-radius: 19px;
+	text-align: center;
+	box-shadow: -1px 15px 30px -12px black;
+}
+
+.card__image {
+	position: relative;
+	height: 230px;
+	margin-bottom: 35px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+}
+
+.card__image--bloom {
+	background: url("assets/bloom_cover.png") no-repeat center center;
+	background-size: cover;
+}
+
+.card__image--saisipa {
+	background: url("assets/saisipa_cover.png") no-repeat center top;
+	background-size: cover;
+}
+
+.card__image--wtc {
+	background: url("assets/wtc_cover.png") no-repeat center center;
+	background-size: cover;
+}
+
+.card img {
+	max-width: 80%;
+	max-height: 80%;
+	height: auto;
+	width: auto;
+}
+
+.card__text-name {
+	font-size: 26px;
+	color: #283D47;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+.card__text-description {
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+#counter {
+	column-gap: 3rem;
 }
