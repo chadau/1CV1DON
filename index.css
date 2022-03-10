@@ -29,6 +29,8 @@ body {
 	background-color: grey;
 	height: 5.5rem;
 	margin-bottom: 2.5rem;
+	border-radius: 14px;
+	overflow: hidden;
 }
 
 .percent-bar div {
@@ -104,4 +106,14 @@ body {
 
 #counter {
 	column-gap: 3rem;
+}
+
+#counter button {
+	border-radius: 1.4rem;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-top: 3rem;
+	height: 5rem;
 }

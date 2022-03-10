@@ -10,13 +10,11 @@ class Counter {
 	}
 
 	init() {
-		this.#dom_element.innerText = this.#counter;
 		this.#dom_element.addEventListener("click", () => this.increase());
 	}
 
 	increase() {
 		this.#counter++;
-		this.#dom_element.innerText = this.#counter;
 	}
 
 	getValue() {
